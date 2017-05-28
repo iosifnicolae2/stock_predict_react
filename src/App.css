@@ -1,0 +1,25 @@
+/* basic css rules */
+.container{
+    width: 1090px;
+    margin: 69px auto;
+    max-width: 99%;
+}
+.buttons-timestamp > button{
+  background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.38);
+    padding: 8px 11px;
+    margin: 21px 9px 6px 0px;
+    border-radius: 3px;
+}
+.buttons-timestamp > button.active{
+      background-color: grey;
+    border-color: grey;
+    color: white;
+}
+
+.buttons-timestamp > button:hover{
+      background-color: #bdbdbd;
+    border-color: #bdbdbd;
+    color: white;
+    cursor: pointer
+}
